@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Http;
 
@@ -14,6 +15,7 @@ namespace OwinAuthenticationWithAngular.API.Controllers
         [Route("")]
         public IHttpActionResult Get()
         {
+            Thread.Sleep(20000);
             List<Order> orders = new List<Order>
             {
                 new Order {Id = 10248, CustomerName = "Lazada", CustomerAddress = "Hougang", IsShipped = true },
