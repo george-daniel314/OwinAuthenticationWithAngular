@@ -13,7 +13,12 @@ app.factory('authService', ['$http', '$q', 'localStorageService', function ($htt
 
         _logOut();
 
-        return $http.post(serviceBase + 'api/account/register', registration).then(function (response) {
+        return $http.post(serviceBase + 'api/account/register', registration, {
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        }).then(function (response) {
             return response;
         });
 
