@@ -40,8 +40,8 @@ Alternatively the Header and Body send in the below format also.
 Header :- Content-Type : application/x-www-form-urlencoded
 Body : (in x-www-form-urlencoded tab) add the 3 keys and its values
 
-## Version 3 : d6741ad58a973e8d3c4d217df641781093183b48
+## Version 3 : bf75fc55e4472b2bc38663b710d64c660694c838
 
 Added web project with angular js
 
-## NOTE: Documentation will be updated soon with detailed code description in each version. But this repository is updated with ready to run code which demonstrates Owin Authentication With Angular. Clone, open with VS 2017 and hit F5. There you go.!!!
+## NOTE: Documentation will be updated soon with detailed code description in each version. But this repository is updated with ready to run code which demonstrates Owin Authentication With Angular. Clone, open with VS 2017, build and hit F5. There you go.!!!
